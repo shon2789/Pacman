@@ -1,0 +1,52 @@
+body {
+  background-color: #001219;
+  font-family: Monaco;
+  text-align: center;
+}
+
+table {
+  background-color: #293241;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+}
+
+h2 {
+  color: white;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* .formLine {
+  margin: 10px;
+  padding: 10px;
+  background-color: cornflowerblue;
+} */
+
+.modal {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  right: 20px;
+  top: 20px;
+  margin: auto;
+  width: 250px;
+  height: 100px;
+  background-color: #023e7d;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-family: Monaco;
+}
+
+.reset {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
